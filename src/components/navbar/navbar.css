@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 2rem 1rem;
+    flex: 1;
+}
+
+.navbar__leftside {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    /* background-color: aquamarine; */
+    padding: 1rem 2rem;
+}
+
+.navbar__rightside {
+    flex: 1;
+    justify-content:center;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar p {
+    color: #004ca3;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0 0.5rem;
+    text-decoration: none; /*xóa gạch chân*/
+}
+.navbar a {
+    color: #004ca3;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    text-decoration: none; /*xóa gạch chân*/
+}
+
+.navbar a:hover {
+    opacity: 0.7;
+}
+
+.navbar a.active {
+	opacity: 0.4;
+}
